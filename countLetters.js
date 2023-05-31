@@ -19,3 +19,8 @@ const countLetters = function(str) {
   }
   return result;
 };
+
+assertEqual(countLetters("LHL")["l"], 2); // should PASS
+assertEqual(countLetters("LHL")["l"], 1); // should FAIL
+assertEqual(countLetters("LHL")["h"], 1); // should PASS
+assertEqual(countLetters("LHL")["x"], 2); // should FAIL
