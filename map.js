@@ -1,5 +1,3 @@
-const { assert } = require("console");
-
 const assertArraysEqual = function(firstArray, secondArray) {
   if (eqArrays(firstArray, secondArray)) {
     console.log(`✅✅✅ Assertion Passed: ${firstArray} === ${secondArray}`);
