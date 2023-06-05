@@ -4,7 +4,7 @@ const eqArrays = require("./eqArrays");
 const eqObjects = function(object1, object2) {
   let object1Keys = Object.keys(object1);
   let object2Keys = Object.keys(object2);
-  if (object1Keys.length !== object2Keys.length) return false; 
+  if (object1Keys.length !== object2Keys.length) return false;
   for (let key of object1Keys) {
     //console.log("key:", key, "value:", object1[key]);
     if (Array.isArray(object1[key])) {
