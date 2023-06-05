@@ -37,3 +37,5 @@ The following functions are currently implemented:
 * `map(array, callback)`: my simplified implementation of the Array.prototype.map . Given an array, iterates through it calling the passed callback function and returning the value into a resulting array that is returned at the end.
 * `takeUntil(array, callback)`: given the array, iterates through it, pushing each item into the resulting array, until the callback function (that takes the current item as an argument into it) returns a truthy value.
 * `without(originalArray, expurgeArray)`: given an original array, returns a new array removing from the original array any items present in the expurgeArray.
+* `eqArrays(array1, array2)`: returns true/false when comparing two arrays
+* `eqObjects(obj1, obj2)`: returns true/false if the objects are equivalent (same key/pair values)
