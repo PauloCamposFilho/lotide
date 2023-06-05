@@ -4,12 +4,12 @@ const eqObjects = require("../eqObjects");
 //test setup
 
 const shirtObject = { color: "red", size: "medium" };
-const anotherShirtObject= { size: "medium", color: "red" };
-const longSleeveShirtObject= { size: "medium", color: "red", sleeveLength: "long" };
+const anotherShirtObject = { size: "medium", color: "red" };
+const longSleeveShirtObject = { size: "medium", color: "red", sleeveLength: "long" };
 
 const multiColorShirtObject = { colors: ["red", "blue"], size: "medium" };
 const anotherMultiColorShirtObject = { size: "medium", colors: ["red", "blue"] };
-const longSleeveMultiColorShirtObject= { size: "medium", colors: ["red", "blue"], sleeveLength: "long" };
+const longSleeveMultiColorShirtObject = { size: "medium", colors: ["red", "blue"], sleeveLength: "long" };
 
 describe("#eqObjects", () => {
   it("should return true when comparing shirtObject and anotherShirtObject", () => {

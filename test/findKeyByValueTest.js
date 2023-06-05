@@ -1,7 +1,7 @@
 const { assert } = require("chai");
 const findKeyByValue = require("../findKeyByValue");
 
-const bestTVShowsByGenre = { 
+const bestTVShowsByGenre = {
   sci_fi: "The Expanse",
   comedy: "Brooklyn Nine-Nine",
   drama:  "The Wire"
