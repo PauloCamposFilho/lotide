@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@paulocamposfilho/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lighthouse Labs assignment. Reinterpreting Lotide",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/PauloCamposFilho/lotide.git"
   },
-  "author": "",
+  "author": "Paulo Campos Filho",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/PauloCamposFilho/lotide/issues"
